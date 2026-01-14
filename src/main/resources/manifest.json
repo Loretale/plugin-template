@@ -1,14 +1,14 @@
 {
     "Group": "Example",
     "Name": "ExamplePlugin",
-    "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Version": "0.0.1",
+    "Description": "An plugin for the Loretale server!",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "Muse"
         }
     ],
-    "Website": "example.org",
+    "Website": "loretale.net",
     "ServerVersion": "*",
     "Dependencies": {
         
@@ -17,6 +17,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
-    "IncludesAssetPack": true
+    "Main": "net.loretale.plugin.ExamplePlugin",
+    "IncludesAssetPack": false
 }
